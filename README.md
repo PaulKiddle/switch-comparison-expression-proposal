@@ -38,6 +38,7 @@ switch(error instanceof case){
 	case CustomError:
 		return "It's a custom error"
 }
+```
 
 The statement need only return a truthy value for an individual case to match, meaning it becomes easy to use regular expressions, for example:
 
